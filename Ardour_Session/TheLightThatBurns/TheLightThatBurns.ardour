@@ -399,7 +399,7 @@
       <controllable name="recenable" id="19037"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4" mode="Normal" diskstream-id="1129">
-      <IO name="snare" id="1122" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.917336106300" iolimits="1,-1,-1,-1">
+      <IO name="snare" id="1122" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.164547324181" iolimits="1,-1,-1,-1">
         <Panner linked="no" link_direction="SameDirection" bypassed="no">
           <Output x="0" y="0"/>
           <Output x="1" y="0"/>

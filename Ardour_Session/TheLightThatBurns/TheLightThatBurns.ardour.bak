@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="2.0.0" name="TheLightThatBurns" sample-rate="96000" id-counter="18472">
+<Session version="2.0.0" name="TheLightThatBurns" sample-rate="96000" id-counter="19749">
   <Config>
     <Option name="output-auto-connect" value="2"/>
     <Option name="input-auto-connect" value="1"/>
@@ -293,9 +293,9 @@
       <controllable name="mute" id="23"/>
       <remote_control id="1"/>
       <extra>
-        <GUI color="41997:34488:19561" shown_mixer="yes" height="64" shown_editor="yes" strip_width="Wide">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="41997:34488:19561" height="64" strip_width="Wide" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
     </Route>
@@ -326,13 +326,13 @@
       <controllable name="mute" id="588"/>
       <remote_control id="2"/>
       <extra>
-        <GUI color="10073:17958:22553" shown_mixer="yes" height="64" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="10073:17958:22553" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17737"/>
+      <controllable name="recenable" id="19014"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2" mode="Normal" diskstream-id="10414">
       <IO name="twiceasbright_long" id="10407" active="yes" inputs="{}" outputs="{master/in 1}{master/in 2}" gain="0.465145856142" iolimits="1,-1,-1,-1">
@@ -355,13 +355,13 @@
       <controllable name="mute" id="10412"/>
       <remote_control id="3"/>
       <extra>
-        <GUI color="34388:7653:15857" shown_mixer="yes" height="64" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="34388:7653:15857" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17747"/>
+      <controllable name="recenable" id="19024"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3" mode="Normal" diskstream-id="1085">
       <IO name="kick" id="1078" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.633027374744" iolimits="1,-1,-1,-1">
@@ -390,16 +390,16 @@
       <controllable name="mute" id="1083"/>
       <remote_control id="4"/>
       <extra>
-        <GUI color="32321:9987:6544" shown_mixer="yes" height="64" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="32321:9987:6544" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17760"/>
+      <controllable name="recenable" id="19037"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4" mode="Normal" diskstream-id="1129">
-      <IO name="snare" id="1122" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.930776119232" iolimits="1,-1,-1,-1">
+      <IO name="snare" id="1122" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.917336106300" iolimits="1,-1,-1,-1">
         <Panner linked="no" link_direction="SameDirection" bypassed="no">
           <Output x="0" y="0"/>
           <Output x="1" y="0"/>
@@ -425,16 +425,16 @@
       <controllable name="mute" id="1127"/>
       <remote_control id="5"/>
       <extra>
-        <GUI color="46179:4991:37873" shown_mixer="yes" height="64" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="46179:4991:37873" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17773"/>
+      <controllable name="recenable" id="19050"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=5:signal=5" mode="Normal" diskstream-id="1173">
-      <IO name="snare_verb" id="1166" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.944350421429" iolimits="1,-1,-1,-1">
+      <IO name="snare_verb" id="1166" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.820731222630" iolimits="1,-1,-1,-1">
         <Panner linked="no" link_direction="SameDirection" bypassed="no">
           <Output x="0" y="0"/>
           <Output x="1" y="0"/>
@@ -460,13 +460,13 @@
       <controllable name="mute" id="1171"/>
       <remote_control id="6"/>
       <extra>
-        <GUI color="2596:1190:36566" shown_mixer="yes" height="64" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="2596:1190:36566" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17786"/>
+      <controllable name="recenable" id="19063"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=6:signal=6" mode="Normal" diskstream-id="1268">
       <IO name="hihat" id="1261" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.346786737442" iolimits="1,-1,-1,-1">
@@ -495,13 +495,13 @@
       <controllable name="mute" id="1266"/>
       <remote_control id="7"/>
       <extra>
-        <GUI color="2864:27001:19430" shown_mixer="yes" height="64" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="2864:27001:19430" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17799"/>
+      <controllable name="recenable" id="19076"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=7:signal=7" mode="Normal" diskstream-id="2115">
       <IO name="BBCut" id="2108" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.705219864845" iolimits="1,-1,-1,-1">
@@ -530,13 +530,13 @@
       <controllable name="mute" id="2113"/>
       <remote_control id="8"/>
       <extra>
-        <GUI color="21956:23173:26466" shown_mixer="yes" height="64" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="21956:23173:26466" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17812"/>
+      <controllable name="recenable" id="19089"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=8:signal=8" mode="Normal" diskstream-id="1327">
       <IO name="pluck" id="1320" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
@@ -565,13 +565,13 @@
       <controllable name="mute" id="1325"/>
       <remote_control id="9"/>
       <extra>
-        <GUI color="22176:22658:40755" shown_mixer="yes" height="52" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="22176:22658:40755" height="52" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17825"/>
+      <controllable name="recenable" id="19102"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=9:signal=9" mode="Normal" diskstream-id="1385">
       <IO name="pad" id="1378" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.275492250919" iolimits="1,-1,-1,-1">
@@ -600,13 +600,13 @@
       <controllable name="mute" id="1383"/>
       <remote_control id="10"/>
       <extra>
-        <GUI color="9102:7021:43962" shown_mixer="yes" height="61" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="9102:7021:43962" height="61" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17838"/>
+      <controllable name="recenable" id="19115"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=10:signal=10" mode="Normal" diskstream-id="5475">
       <IO name="twiceasbright_vocoded" id="5468" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.102312788367" iolimits="1,-1,-1,-1">
@@ -635,13 +635,13 @@
       <controllable name="mute" id="5473"/>
       <remote_control id="11"/>
       <extra>
-        <GUI color="23308:9783:36454" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="23308:9783:36454" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17851"/>
+      <controllable name="recenable" id="19128"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=11:signal=11" mode="Normal" diskstream-id="3485">
       <IO name="pluckspeech" id="3478" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
@@ -670,13 +670,13 @@
       <controllable name="mute" id="3483"/>
       <remote_control id="12"/>
       <extra>
-        <GUI color="15761:16869:3048" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="15761:16869:3048" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17864"/>
+      <controllable name="recenable" id="19141"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=12:signal=12" mode="Normal" diskstream-id="3549">
       <IO name="pluckspeech_theme" id="3542" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.563507497311" iolimits="1,-1,-1,-1">
@@ -705,13 +705,13 @@
       <controllable name="mute" id="3547"/>
       <remote_control id="13"/>
       <extra>
-        <GUI color="10211:35800:103" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="10211:35800:103" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17877"/>
+      <controllable name="recenable" id="19154"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=13:signal=13" mode="Normal" diskstream-id="10751">
       <IO name="pluckspeech_themeB" id="10744" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.196812778711" iolimits="1,-1,-1,-1">
@@ -740,13 +740,13 @@
       <controllable name="mute" id="10749"/>
       <remote_control id="14"/>
       <extra>
-        <GUI color="32440:26660:12747" shown_mixer="yes" height="70" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="32440:26660:12747" height="70" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17890"/>
+      <controllable name="recenable" id="19167"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=14:signal=14" mode="Normal" diskstream-id="3665">
       <IO name="chatter" id="3658" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
@@ -775,13 +775,13 @@
       <controllable name="mute" id="3663"/>
       <remote_control id="15"/>
       <extra>
-        <GUI color="22200:7624:30900" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="22200:7624:30900" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17903"/>
+      <controllable name="recenable" id="19180"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=15:signal=15" mode="Normal" diskstream-id="3715">
       <IO name="outrochat" id="3708" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.708628058434" iolimits="1,-1,-1,-1">
@@ -810,13 +810,13 @@
       <controllable name="mute" id="3713"/>
       <remote_control id="16"/>
       <extra>
-        <GUI color="31468:9554:45259" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="31468:9554:45259" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17916"/>
+      <controllable name="recenable" id="19193"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=16:signal=16" mode="Normal" diskstream-id="3779">
       <IO name="conv_chat" id="3772" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.159596890211" iolimits="1,-1,-1,-1">
@@ -845,13 +845,13 @@
       <controllable name="mute" id="3777"/>
       <remote_control id="17"/>
       <extra>
-        <GUI color="29400:32257:39555" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="29400:32257:39555" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17929"/>
+      <controllable name="recenable" id="19206"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=17:signal=17" mode="Normal" diskstream-id="3835">
       <IO name="low_groan" id="3828" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.969484925270" iolimits="1,-1,-1,-1">
@@ -880,13 +880,13 @@
       <controllable name="mute" id="3833"/>
       <remote_control id="18"/>
       <extra>
-        <GUI color="1357:1392:22716" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="1357:1392:22716" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17942"/>
+      <controllable name="recenable" id="19219"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=18:signal=18" mode="Normal" diskstream-id="3879">
       <IO name="low_groan_octave" id="3872" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="1,-1,-1,-1">
@@ -915,13 +915,13 @@
       <controllable name="mute" id="3877"/>
       <remote_control id="19"/>
       <extra>
-        <GUI color="31942:26288:39764" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="31942:26288:39764" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17955"/>
+      <controllable name="recenable" id="19232"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=19:signal=19" mode="Normal" diskstream-id="3933">
       <IO name="high_groan" id="3926" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.413294702768" iolimits="1,-1,-1,-1">
@@ -950,13 +950,13 @@
       <controllable name="mute" id="3931"/>
       <remote_control id="20"/>
       <extra>
-        <GUI color="18029:29579:11825" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="18029:29579:11825" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17968"/>
+      <controllable name="recenable" id="19245"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=20:signal=20" mode="Normal" diskstream-id="3982">
       <IO name="high_groan_reverb" id="3975" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.095134638250" iolimits="1,-1,-1,-1">
@@ -985,13 +985,13 @@
       <controllable name="mute" id="3980"/>
       <remote_control id="21"/>
       <extra>
-        <GUI color="9391:4789:46702" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="9391:4789:46702" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17981"/>
+      <controllable name="recenable" id="19258"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=21:signal=21" mode="Normal" diskstream-id="4039">
       <IO name="reverbchat" id="4032" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.207333177328" iolimits="1,-1,-1,-1">
@@ -1020,13 +1020,13 @@
       <controllable name="mute" id="4037"/>
       <remote_control id="22"/>
       <extra>
-        <GUI color="6741:41136:33880" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="6741:41136:33880" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="17994"/>
+      <controllable name="recenable" id="19271"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=22:signal=22" mode="Normal" diskstream-id="4104">
       <IO name="theme_slow" id="4097" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.291555970907" iolimits="1,-1,-1,-1">
@@ -1055,13 +1055,13 @@
       <controllable name="mute" id="4102"/>
       <remote_control id="23"/>
       <extra>
-        <GUI color="29536:32537:1641" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="29536:32537:1641" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="18007"/>
+      <controllable name="recenable" id="19284"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=23:signal=23" mode="Normal" diskstream-id="4148">
       <IO name="theme_slow_reverb" id="4141" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.167375296354" iolimits="1,-1,-1,-1">
@@ -1090,13 +1090,13 @@
       <controllable name="mute" id="4146"/>
       <remote_control id="24"/>
       <extra>
-        <GUI color="46405:20992:11852" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="46405:20992:11852" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="18020"/>
+      <controllable name="recenable" id="19297"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=24:signal=24" mode="Normal" diskstream-id="4192">
       <IO name="theme_slow_octave" id="4185" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.542891800404" iolimits="1,-1,-1,-1">
@@ -1125,13 +1125,13 @@
       <controllable name="mute" id="4190"/>
       <remote_control id="25"/>
       <extra>
-        <GUI color="34206:3892:22405" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="34206:3892:22405" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="18033"/>
+      <controllable name="recenable" id="19310"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=25:signal=25" mode="Normal" diskstream-id="4236">
       <IO name="theme_oct_reverb" id="4229" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.465512871742" iolimits="1,-1,-1,-1">
@@ -1160,13 +1160,13 @@
       <controllable name="mute" id="4234"/>
       <remote_control id="26"/>
       <extra>
-        <GUI color="30182:1151:42225" shown_mixer="yes" height="27" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="30182:1151:42225" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="18046"/>
+      <controllable name="recenable" id="19323"/>
     </Route>
     <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=26:signal=26" mode="Normal" diskstream-id="10650">
       <IO name="arp" id="10643" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.412617415190" iolimits="1,-1,-1,-1">
@@ -1195,18 +1195,34 @@
       <controllable name="mute" id="10648"/>
       <remote_control id="27"/>
       <extra>
-        <GUI color="47438:46670:17883" shown_mixer="yes" height="70" shown_editor="yes">
-          <gain shown="no" height="70"/>
-          <pan shown="no" height="70"/>
+        <GUI color="47438:46670:17883" height="70" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
         </GUI>
       </extra>
       <alignment style="ExistingMaterial"/>
-      <controllable name="recenable" id="18059"/>
+      <controllable name="recenable" id="19336"/>
     </Route>
   </Routes>
   <EditGroups/>
   <MixGroups/>
   <Playlists>
+    <Playlist name="theme_slow_octave" orig_diskstream_id="4192" frozen="no">
+      <Region id="4211" name="theme_slow_octave" start="0" length="4361365" position="13127442" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4176" source-1="4178" channels="2" master-source-0="4176" master-source-1="4178">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9470" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+275783 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
     <Playlist name="hihat" orig_diskstream_id="1268" frozen="no">
       <Region id="10842" name="drum3_hihat.1" start="0" length="2143256" position="1875349" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="1252" source-1="1254" channels="2" master-source-0="1252" master-source-1="1254">
         <FadeIn active="yes">
@@ -1252,186 +1268,6 @@
         </extra>
       </Region>
     </Playlist>
-    <Playlist name="snare_verb" orig_diskstream_id="1173" frozen="no">
-      <Region id="1192" name="drum3_snare_reverb" start="0" length="2364056" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1157" source-1="1159" channels="2" master-source-0="1157" master-source-1="1159">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-      <Region id="1993" name="drum4_snare_reverb.1" start="0" length="803722" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="1983" source-1="1985" channels="2" master-source-0="1983" master-source-1="1985">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-      <Region id="2080" name="drum3_snare_reverb" start="0" length="2364056" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1157" source-1="1159" channels="2" master-source-0="1157" master-source-1="1159">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="BBCut" orig_diskstream_id="2115" frozen="no">
-      <Region id="2135" name="bbbreak" start="0" length="2143256" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="2099" source-1="2101" channels="2" master-source-0="2099" master-source-1="2101">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="reverbchat" orig_diskstream_id="4039" frozen="no">
-      <Region id="4058" name="reverbchat" start="0" length="4052256" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4023" source-1="4025" channels="2" master-source-0="4023" master-source-1="4025">
-        <FadeIn active="yes">
-          <AutomationList id="4059" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 0
-827713 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <FadeOut active="yes">
-          <AutomationList id="9458" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 1
-234581 0
-</events>
-          </AutomationList>
-        </FadeOut>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="theme_slow_reverb" orig_diskstream_id="4148" frozen="no">
-      <Region id="4167" name="theme_slow_reverb" start="0" length="5417365" position="12859535" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4132" source-1="4134" channels="2" master-source-0="4132" master-source-1="4134">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut active="yes">
-          <AutomationList id="9483" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 1
-126201 0
-</events>
-          </AutomationList>
-        </FadeOut>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="pluckspeech_theme" orig_diskstream_id="3549" frozen="no">
-      <Region id="3568" name="pluckspeech_theme" start="0" length="872273" position="5626046" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3533" source-1="3535" channels="2" master-source-0="3533" master-source-1="3535">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="pluckspeech_themeB" orig_diskstream_id="10751" frozen="no">
-      <Region id="10770" name="pluckspeech_themeB" start="0" length="872273" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10735" source-1="10737" channels="2" master-source-0="10735" master-source-1="10737">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-      <Region id="10795" name="pluckspeech_themeB" start="0" length="872273" position="11520000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10735" source-1="10737" channels="2" master-source-0="10735" master-source-1="10737">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="low_groan" orig_diskstream_id="3835" frozen="no">
-      <Region id="3854" name="low_groan" start="0" length="4740368" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3819" source-1="3821" channels="2" master-source-0="3819" master-source-1="3821">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut active="yes">
-          <AutomationList id="9495" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 1
-118972 0
-</events>
-          </AutomationList>
-        </FadeOut>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="high_groan_reverb" orig_diskstream_id="3982" frozen="no">
-      <Region id="4001" name="high_groan_reverb.1" start="0" length="5796368" position="12189767" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,FadeIn,FadeOut,External" scale-gain="1" source-0="3966" source-1="3968" channels="2" master-source-0="3966" master-source-1="3968">
-        <FadeIn active="yes">
-          <AutomationList id="9450" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 0
-881954 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <FadeOut active="yes">
-          <AutomationList id="9451" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 1
-103344 0
-</events>
-          </AutomationList>
-        </FadeOut>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="intro_cross.1" orig_diskstream_id="590" frozen="no">
-      <Region id="609" name="intro_cross.1" start="0" length="4382512" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,FadeIn,FadeOut,External" scale-gain="1" source-0="87" source-1="89" channels="2" master-source-0="87" master-source-1="89">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut active="yes">
-          <AutomationList id="9611" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 1
-23945 0.730556
-82480 0.289256
-139570 0.152778
-206619 0.0694444
-296930 0
-</events>
-          </AutomationList>
-        </FadeOut>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="pluck" orig_diskstream_id="1327" frozen="no">
-      <Region id="1346" name="pluck_mix" start="0" length="9629023" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1311" source-1="1313" channels="2" master-source-0="1311" master-source-1="1313">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="pluckspeech" orig_diskstream_id="3485" frozen="no">
-      <Region id="3504" name="pluckspeech" start="0" length="872273" position="9577674" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3469" source-1="3471" channels="2" master-source-0="3469" master-source-1="3471">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
     <Playlist name="twiceasbright_vocoded.1" orig_diskstream_id="5475" frozen="no">
       <Region id="9169" name="twiceasbright_vocoded" start="0" length="1310624" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="9127" source-1="9129" channels="2" master-source-0="9127" master-source-1="9129">
         <FadeIn default="yes" active="yes"/>
@@ -1453,96 +1289,6 @@
           <AutomationList id="10377" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
             <events>0 1
 238995 0
-</events>
-          </AutomationList>
-        </FadeOut>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="low_groan_octave" orig_diskstream_id="3879" frozen="no">
-      <Region id="3898" name="low_groan_octave" start="0" length="4740368" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3863" source-1="3865" channels="2" master-source-0="3863" master-source-1="3865">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut active="yes">
-          <AutomationList id="9514" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 1
-118972 0
-</events>
-          </AutomationList>
-        </FadeOut>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="pad" orig_diskstream_id="1385" frozen="no">
-      <Region id="1404" name="pad_mix" start="0" length="9821023" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1369" source-1="1371" channels="2" master-source-0="1369" master-source-1="1371">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="snare" orig_diskstream_id="1129" frozen="no">
-      <Region id="1148" name="drum3_snare" start="0" length="2172056" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1113" source-1="1115" channels="2" master-source-0="1113" master-source-1="1115">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-      <Region id="1964" name="drum4_snare.1" start="0" length="803722" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="1907" source-1="1909" channels="2" master-source-0="1907" master-source-1="1909">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-      <Region id="2070" name="drum3_snare" start="0" length="2172056" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1113" source-1="1115" channels="2" master-source-0="1113" master-source-1="1115">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="theme_slow" orig_diskstream_id="4104" frozen="no">
-      <Region id="4123" name="theme_slow" start="0" length="4361365" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4088" source-1="4090" channels="2" master-source-0="4088" master-source-1="4090">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut active="yes">
-          <AutomationList id="9464" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 1
-141829 0
-</events>
-          </AutomationList>
-        </FadeOut>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="high_groan" orig_diskstream_id="3933" frozen="no">
-      <Region id="3952" name="high_groan.1" start="0" length="4740368" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,FadeIn,FadeOut,External" scale-gain="1" source-0="3917" source-1="3919" channels="2" master-source-0="3917" master-source-1="3919">
-        <FadeIn active="yes">
-          <AutomationList id="3953" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 0
-728395 1
-</events>
-          </AutomationList>
-        </FadeIn>
-        <FadeOut active="yes">
-          <AutomationList id="9507" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
-            <events>0 1
-118972 0
 </events>
           </AutomationList>
         </FadeOut>
@@ -1596,8 +1342,8 @@
         </FadeOut>
       </Crossfade>
     </Playlist>
-    <Playlist name="arp" orig_diskstream_id="10650" frozen="no">
-      <Region id="10669" name="arp" start="0" length="2210233" position="10448372" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10634" source-1="10636" channels="2" master-source-0="10634" master-source-1="10636">
+    <Playlist name="chatter" orig_diskstream_id="3665" frozen="no">
+      <Region id="3684" name="chatter" start="0" length="2012689" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3649" source-1="3651" channels="2" master-source-0="3649" master-source-1="3651">
         <FadeIn default="yes" active="yes"/>
         <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
@@ -1622,36 +1368,32 @@
         </extra>
       </Region>
     </Playlist>
-    <Playlist name="chatter" orig_diskstream_id="3665" frozen="no">
-      <Region id="3684" name="chatter" start="0" length="2012689" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3649" source-1="3651" channels="2" master-source-0="3649" master-source-1="3651">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="twiceasbright_long" orig_diskstream_id="10414" frozen="no">
-      <Region id="10427" name="twiceasbright_3" start="0" length="1310624" position="3281860" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10400" channels="1" master-source-0="10400">
-        <FadeIn default="yes" active="yes"/>
-        <FadeOut default="yes" active="yes"/>
-        <Envelope default="yes"/>
-        <extra>
-          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
-        </extra>
-      </Region>
-    </Playlist>
-    <Playlist name="theme_slow_octave" orig_diskstream_id="4192" frozen="no">
-      <Region id="4211" name="theme_slow_octave" start="0" length="4361365" position="13127442" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4176" source-1="4178" channels="2" master-source-0="4176" master-source-1="4178">
+    <Playlist name="theme_slow_reverb" orig_diskstream_id="4148" frozen="no">
+      <Region id="4167" name="theme_slow_reverb" start="0" length="5417365" position="12859535" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4132" source-1="4134" channels="2" master-source-0="4132" master-source-1="4134">
         <FadeIn default="yes" active="yes"/>
         <FadeOut active="yes">
-          <AutomationList id="9470" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+          <AutomationList id="9483" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
             <events>0 1
-275783 0
+126201 0
 </events>
           </AutomationList>
         </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="theme_oct_reverb" orig_diskstream_id="4236" frozen="no">
+      <Region id="4255" name="theme_oct_reverb" start="0" length="5417365" position="13127442" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4220" source-1="4222" channels="2" master-source-0="4220" master-source-1="4222">
+        <FadeIn active="yes">
+          <AutomationList id="9438" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+509896 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut default="yes" active="yes"/>
         <Envelope default="yes"/>
         <extra>
           <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
@@ -1674,16 +1416,274 @@
         </extra>
       </Region>
     </Playlist>
-    <Playlist name="theme_oct_reverb" orig_diskstream_id="4236" frozen="no">
-      <Region id="4255" name="theme_oct_reverb" start="0" length="5417365" position="13127442" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4220" source-1="4222" channels="2" master-source-0="4220" master-source-1="4222">
+    <Playlist name="snare" orig_diskstream_id="1129" frozen="no">
+      <Region id="1148" name="drum3_snare" start="0" length="2172056" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1113" source-1="1115" channels="2" master-source-0="1113" master-source-1="1115">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="1964" name="drum4_snare.1" start="0" length="803722" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="1907" source-1="1909" channels="2" master-source-0="1907" master-source-1="1909">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="2070" name="drum3_snare" start="0" length="2172056" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1113" source-1="1115" channels="2" master-source-0="1113" master-source-1="1115">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="theme_slow" orig_diskstream_id="4104" frozen="no">
+      <Region id="4123" name="theme_slow" start="0" length="4361365" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4088" source-1="4090" channels="2" master-source-0="4088" master-source-1="4090">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9464" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+141829 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="low_groan_octave" orig_diskstream_id="3879" frozen="no">
+      <Region id="3898" name="low_groan_octave" start="0" length="4740368" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3863" source-1="3865" channels="2" master-source-0="3863" master-source-1="3865">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9514" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+118972 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="low_groan" orig_diskstream_id="3835" frozen="no">
+      <Region id="3854" name="low_groan" start="0" length="4740368" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3819" source-1="3821" channels="2" master-source-0="3819" master-source-1="3821">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9495" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+118972 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="reverbchat" orig_diskstream_id="4039" frozen="no">
+      <Region id="4058" name="reverbchat" start="0" length="4052256" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4023" source-1="4025" channels="2" master-source-0="4023" master-source-1="4025">
         <FadeIn active="yes">
-          <AutomationList id="9438" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+          <AutomationList id="4059" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
             <events>0 0
-509896 1
+827713 1
 </events>
           </AutomationList>
         </FadeIn>
+        <FadeOut active="yes">
+          <AutomationList id="9458" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+234581 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="twiceasbright_long" orig_diskstream_id="10414" frozen="no">
+      <Region id="10427" name="twiceasbright_3" start="0" length="1310624" position="3281860" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10400" channels="1" master-source-0="10400">
+        <FadeIn default="yes" active="yes"/>
         <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="snare_verb" orig_diskstream_id="1173" frozen="no">
+      <Region id="1192" name="drum3_snare_reverb" start="0" length="2364056" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1157" source-1="1159" channels="2" master-source-0="1157" master-source-1="1159">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="1993" name="drum4_snare_reverb.1" start="0" length="803722" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="1983" source-1="1985" channels="2" master-source-0="1983" master-source-1="1985">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="2080" name="drum3_snare_reverb" start="0" length="2364056" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1157" source-1="1159" channels="2" master-source-0="1157" master-source-1="1159">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pluck" orig_diskstream_id="1327" frozen="no">
+      <Region id="1346" name="pluck_mix" start="0" length="9629023" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1311" source-1="1313" channels="2" master-source-0="1311" master-source-1="1313">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="high_groan_reverb" orig_diskstream_id="3982" frozen="no">
+      <Region id="4001" name="high_groan_reverb.1" start="0" length="5796368" position="12189767" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,FadeIn,FadeOut,External" scale-gain="1" source-0="3966" source-1="3968" channels="2" master-source-0="3966" master-source-1="3968">
+        <FadeIn active="yes">
+          <AutomationList id="9450" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+881954 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut active="yes">
+          <AutomationList id="9451" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+103344 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="arp" orig_diskstream_id="10650" frozen="no">
+      <Region id="10669" name="arp" start="0" length="2210233" position="10448372" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10634" source-1="10636" channels="2" master-source-0="10634" master-source-1="10636">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pluckspeech_themeB" orig_diskstream_id="10751" frozen="no">
+      <Region id="10770" name="pluckspeech_themeB" start="0" length="872273" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10735" source-1="10737" channels="2" master-source-0="10735" master-source-1="10737">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="10795" name="pluckspeech_themeB" start="0" length="872273" position="11520000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10735" source-1="10737" channels="2" master-source-0="10735" master-source-1="10737">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pluckspeech_theme" orig_diskstream_id="3549" frozen="no">
+      <Region id="3568" name="pluckspeech_theme" start="0" length="872273" position="5626046" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3533" source-1="3535" channels="2" master-source-0="3533" master-source-1="3535">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="high_groan" orig_diskstream_id="3933" frozen="no">
+      <Region id="3952" name="high_groan.1" start="0" length="4740368" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,FadeIn,FadeOut,External" scale-gain="1" source-0="3917" source-1="3919" channels="2" master-source-0="3917" master-source-1="3919">
+        <FadeIn active="yes">
+          <AutomationList id="3953" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+728395 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut active="yes">
+          <AutomationList id="9507" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+118972 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pad" orig_diskstream_id="1385" frozen="no">
+      <Region id="1404" name="pad_mix" start="0" length="9821023" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1369" source-1="1371" channels="2" master-source-0="1369" master-source-1="1371">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="BBCut" orig_diskstream_id="2115" frozen="no">
+      <Region id="2135" name="bbbreak" start="0" length="2143256" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="2099" source-1="2101" channels="2" master-source-0="2099" master-source-1="2101">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pluckspeech" orig_diskstream_id="3485" frozen="no">
+      <Region id="3504" name="pluckspeech" start="0" length="872273" position="9577674" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3469" source-1="3471" channels="2" master-source-0="3469" master-source-1="3471">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="intro_cross.1" orig_diskstream_id="590" frozen="no">
+      <Region id="609" name="intro_cross.1" start="0" length="4382512" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,FadeIn,FadeOut,External" scale-gain="1" source-0="87" source-1="89" channels="2" master-source-0="87" master-source-1="89">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9611" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+23945 0.730556
+82480 0.289256
+139570 0.152778
+206619 0.0694444
+296930 0
+</events>
+          </AutomationList>
+        </FadeOut>
         <Envelope default="yes"/>
         <extra>
           <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>

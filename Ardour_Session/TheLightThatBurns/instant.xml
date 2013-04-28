@@ -56,10 +56,10 @@
       <Track channel1="off" channel2="off"/>
     </Tracks>
   </ExportDialog>
-  <Editor id="12" zoom-focus="0" zoom="26226.862245" snap-to="11" snap-mode="1" edit-point="EditAtPlayhead" playhead="4189934" show-waveforms="yes" show-waveforms-rectified="no" show-waveforms-recording="yes" show-measures="yes" follow-playhead="yes" stationary-playhead="no" xfades-visible="yes" region-list-sort-type="ByEndInFile" mouse-mode="MouseObject" show-editor-mixer="no">
-    <geometry x_size="1438" y_size="883" x_pos="0" y_pos="15" x_off="1" y_off="16" edit_pane_pos="1049"/>
-  </Editor>
   <Mixer narrow-strips="no" show-mixer="yes">
-    <geometry x_size="790" y_size="883" x_pos="2880" y_pos="15" x_off="0" y_off="0" mixer_rhs_pane1_pos="294" mixer_list_hpane_pos="75"/>
+    <geometry x_size="862" y_size="883" x_pos="2880" y_pos="15" x_off="0" y_off="0" mixer_rhs_pane1_pos="294" mixer_list_hpane_pos="75"/>
   </Mixer>
+  <Editor id="12" zoom-focus="0" zoom="26226.862245" snap-to="11" snap-mode="1" edit-point="EditAtPlayhead" playhead="9579520" show-waveforms="yes" show-waveforms-rectified="no" show-waveforms-recording="yes" show-measures="yes" follow-playhead="yes" stationary-playhead="no" xfades-visible="yes" region-list-sort-type="ByEndInFile" mouse-mode="MouseTimeFX" show-editor-mixer="no">
+    <geometry x_size="1438" y_size="883" x_pos="2880" y_pos="15" x_off="2881" y_off="16" edit_pane_pos="1049"/>
+  </Editor>
 </instant>
