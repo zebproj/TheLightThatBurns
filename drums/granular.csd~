@@ -1,0 +1,46 @@
+<CsoundSynthesizer>
+<CsOptions>
+-d 
+;-odac:system:playback_ -Ma -+rtaudio=jack -+rtmidi=alsa 
+-o/tmp/test.wav
+;-otmp.wav
+</CsOptions>
+; ==============================================
+<CsInstruments>
+
+sr	=	96000
+;sr	=	44100
+ksmps	=	1
+nchnls	=	2
+0dbfs	=	1
+
+#define file #"../waveforms/noise.wav" #
+
+gistring ftgen 0, 0, 32768, 1, $file , 0, 0, 0
+giwf ftgen 0, 0, 512, 20, 2
+instr 1	
+iamp = 0.2
+ipitch = 44100/ftlen(gistring)
+idens = 20 
+iamp_off = 0.01
+ipch_off = 1
+igdur = 0.5
+
+agrain grain iamp, ipitch, idens, iamp_off, ipch_off,igdur, gistring, giwf, igdur
+
+;a1, a2 diskin $file,1
+;a1 = a1 * iamp
+;a2 = a2 * iamp
+outs agrain, agrain
+endin
+
+</CsInstruments>
+; ==============================================
+<CsScore>
+
+i1	0	1
+
+
+</CsScore>
+</CsoundSynthesizer>
+

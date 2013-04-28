@@ -1,0 +1,114 @@
+objects = kick.wav snare.wav hihat.wav 
+csd_files = kick.csd snare.csd hihat.csd
+loops = drum1.wav drum2.wav drum3.wav loop8_temp.wav \
+	   drum3_kick.wav drum3_snare.wav drum3_hihat.wav\
+	   drum_plain.wav bbbreak.wav\
+	   drum4_kick.wav drum4_snare.wav drum4_hihat.wav\
+	   kick_loop.wav drum4_snare_reverb.wav drum3_snare_reverb.wav
+
+default:
+
+kick.wav: kick.csd
+	csound -okick.wav kick.csd
+snare.wav: snare.csd
+	csound -osnare.wav snare.csd
+hihat.wav:hihat.csd
+	csound -ohihat.wav hihat.csd
+
+drum1.wav:sampler.orc drum1.sco kick.wav snare.wav hihat.wav
+	csound -d -o  drum1.wav sampler.orc drum1.sco
+
+drum2.wav:sampler.orc drum2.sco kick.wav snare.wav hihat.wav
+	csound -d -o drum2.wav sampler.orc drum2.sco
+
+drum2b.wav:sampler.orc drum2b.sco kick.wav snare.wav hihat.wav
+	csound -d -o drum2b.wav sampler.orc drum2b.sco
+
+drum1.sco: drum1.pat2 drummachine.pl
+	perl drummachine.pl drum1.pat drum1.sco
+
+drum2.sco: drum2.pat drummachine.pl 
+	perl drummachine.pl drum2.pat drum2.sco
+
+#drumpat 3
+drum3.sco: drum3.pat2 drummer2.pl
+	perl drummer2.pl drum3.pat2 drum3.sco
+drum3_hihat.sco: drum3.sco
+	echo "t 0 172" > drum3_hihat.sco
+	cat drum3.sco | grep -i "hihat" >> drum3_hihat.sco
+drum3_snare.sco: drum3.sco
+	echo "t 0 172" > drum3_snare.sco
+	cat drum3.sco | grep -i "snare" >> drum3_snare.sco
+drum3_kick.sco: drum3.sco
+	echo "t 0 172" > drum3_kick.sco
+	cat drum3.sco | grep -i "kick" >> drum3_kick.sco
+
+
+
+drum3.wav: drum3.sco sampler.orc
+	csound -d -o drum3.wav sampler.orc drum3.sco
+drum3_hihat.wav: drum3_hihat.sco sampler.orc
+	csound -d -o drum3_hihat.wav sampler.orc drum3_hihat.sco
+drum3_snare.wav: drum3_snare.sco sampler.orc
+	csound -d -o drum3_snare.wav sampler.orc drum3_snare.sco
+drum3_snare_reverb.wav: drum3_snare.wav reverbsc.csd
+	./reverb 96000 drum3_snare_reverb.wav drum3_snare.wav 0.4 1 10000 .7
+drum3_kick.wav: drum3_kick.sco sampler.orc
+	csound -d -o drum3_kick.wav sampler.orc drum3_kick.sco
+
+drum4.sco: drum4.pat2 drummer2.pl
+	perl drummer2.pl drum4.pat2 drum4.sco
+
+drum4_hihat.sco: drum4.sco
+	echo "t 0 172" > drum4_hihat.sco
+	cat drum4.sco | grep -i "hihat" >> drum4_hihat.sco
+drum4_snare.sco: drum4.sco sampler.orc
+	echo "t 0 172" > drum4_snare.sco
+	cat drum4.sco | grep -i "snare" >> drum4_snare.sco
+drum4_kick.sco: drum4.sco 
+	echo "t 0 172" > drum4_kick.sco
+	cat drum4.sco | grep -i "kick" >> drum4_kick.sco
+drum4_hihat.wav: drum4_hihat.sco sampler.orc
+	csound -d -o drum4_hihat.wav sampler.orc drum4_hihat.sco
+drum4_snare.wav: drum4_snare.sco
+	csound -d -o drum4_snare.wav sampler.orc drum4_snare.sco
+drum4_snare_reverb.wav: drum4_snare.wav reverbsc.csd
+	./reverb 96000 drum4_snare_reverb.wav drum4_snare.wav 0.4 1 10000 .7
+drum4_kick.wav: drum4_kick.sco sampler.orc
+	csound -d -o drum4_kick.wav sampler.orc drum4_kick.sco
+
+
+
+drum_plain.sco: drum_plain.pat2 drummer2.pl
+	perl drummer2.pl drum_plain.pat2 drum_plain.sco
+drum_plain.wav: drum_plain.sco  sampler.orc
+	csound -d -o drum_plain.wav sampler.orc drum_plain.sco
+	sox drum_plain.wav tmp.wav trim 0 `python -c "print 4 * (60.0/172) " `
+	mv tmp.wav drum_plain.wav
+
+bbcut.csd: 
+bbbreak.wav: bbcut.csd drum_plain.wav
+	csound -d -W -obbbreak.wav bbcut.csd
+
+#break1.wav: drum1.wav break1.sco mincer.orc
+#	csound -d -o break1.wav mincer.orc break1.sco
+
+
+
+loop8_temp.wav:
+	sox drum1.wav drum1.wav drum1.wav drum1.wav drum1.wav drum1.wav drum1.wav drum1.wav \
+	drum1.wav drum1.wav drum1.wav drum1.wav drum1.wav drum1.wav drum1.wav \
+		loop8_temp.wav
+
+kick_loop.wav: kick.wav looper.csd
+	csound -d -W -okick_loop.wav looper.csd
+
+clean: 
+	rm ${objects}
+	rm ${loops}
+
+clean_loops:
+	rm ${loops}
+all: ${csd_files}
+	make ${objects}
+	make ${loops}

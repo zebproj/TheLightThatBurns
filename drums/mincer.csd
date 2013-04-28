@@ -1,0 +1,93 @@
+<CsoundSynthesizer>
+<CsOptions>
+-d
+-odac:system:playback_
+-+rtaudio=jack
+;-+rtaudio=alsa
+-+rtmidi=alsa
+--midi-key-pch=4
+;--midi-velocity-amp=5
+</CsOptions>
+; ==============================================
+<CsInstruments>
+
+sr	=	96000
+;sr	=	48000
+ksmps	=	1
+nchnls	=	2
+0dbfs	=	1
+
+gidrum1 ftgen 1, 0, 0, 1, "drum1.wav", 0, 0, 1
+gkfreq init 0
+gkamp init 0
+
+instr 1	
+
+if (p5 < 0) then
+istart = (((8 - p4)/8) * (172/60))
+else
+istart = (((p4-1)/8) * (172/60))
+endif
+print istart
+a1 diskin2 "drum1.wav", p5, istart, 1
+
+fa1 pvsanal a1, 1024, 256, 1024, 1
+freeze pvsfreeze fa1, gkamp, gkfreq
+aout pvsynth freeze
+
+aL = aout * p6
+aR = aout * p6
+outs aL, aR
+endin
+
+instr 3	
+ilen  filelen "drum1.wav"
+agate linseg 1, p3 - 0.5, 1, 0.5, 0
+istrt = p4/8 * ilen
+iend = p5/8 * ilen
+print ilen
+print iend
+ipch = p6
+iamp = p7
+atime line istrt, p3, iend
+
+amince mincer atime, iamp, ipch, 1, 1
+
+outs amince * agate, amince * agate
+endin
+
+instr 2
+gkamp = p4
+gkfreq = p5
+endin
+
+</CsInstruments>
+; ==============================================
+<CsScore>
+t 0 172 
+i1 	0  	8	1	1	1
+i1 	+  	4	1	1	1
+i1 	+  	3	1	-1	1
+i1	+	.25	4	1	1
+i1	+	.25	4	1	2
+i1	+	.25	4	1	3
+i1	+	.25	4	1	4
+
+i2	12.2	 4	1	1
+i2	16	 4	0	0
+
+i1 	16  	8	1	1	1
+i1 	24	4	1	.5	1
+i1 	28	2	1	1	1
+i1 	30	2	1	-1	1
+
+i1 	32	8	1	1	1
+i1 	40	8	1	1	1
+i1 	48	8	1	-1	1
+i1 	56	8	1	1	1
+
+i1	96	32	1	1	1
+
+</CsScore>
+</CsoundSynthesizer>
+

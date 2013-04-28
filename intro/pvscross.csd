@@ -1,0 +1,68 @@
+<CsoundSynthesizer>
+<CsOptions>
+-d
+-odac:system:playback_
+-+rtaudio=jack
+;-+rtaudio=alsa
+-+rtmidi=alsa
+--midi-key-pch=4
+;--midi-velocity-amp=5
+</CsOptions>
+; ==============================================
+<CsInstruments>
+
+sr	=	96000
+ksmps	=	1
+nchnls	=	2
+0dbfs	=	1
+
+instr 1	
+Sfile1 = "wordmix.wav"
+Sfile2 = "../pads/pad_intro_mix.wav"
+ifftsize = 2048
+iolap = ifftsize / 4
+iwinsize = ifftsize
+ishape = 0
+
+ifftsize_2 = 512
+iolap_2 = ifftsize_2 / 2
+iwinsize_2 = ifftsize_2
+ishape_@ = 0
+ilen filelen Sfile2
+
+a1L, a1R diskin2 Sfile1, 1
+ktrans2 linseg 1, ilen, 0
+
+a1L = a1L * ktrans2
+a1R = a1R * ktrans2
+
+a2, ajunk diskin2 Sfile2, 1
+
+;a2 reverb a2, 1.2
+;a2 = a2 * 0.3
+fftin1 pvsanal a1L, ifftsize, iolap, iwinsize, ishape
+fftin2 pvsanal a1R, ifftsize, iolap, iwinsize, ishape
+fftin3 pvsanal a2, ifftsize, iolap, iwinsize, ishape
+
+ktrans1 linseg 0, ilen, 1
+fcrossL pvscross fftin1, fftin3,  ktrans2, ktrans1
+fcrossR pvscross fftin2, fftin3,  ktrans2, ktrans1
+
+aoutL pvsynth fcrossL
+aoutR pvsynth fcrossR
+
+;aoutL = (ktrans2 * aoutL) + (a2 * (1 - ktrans2))
+;aoutR = (ktrans2 * aoutR) + (a2 * (1 - ktrans2))
+agate linsegr 1, 1, 0
+outs aoutL * agate, aoutR * agate
+;outs a1L, a1R
+endin
+
+</CsInstruments>
+; ==============================================
+<CsScore>
+t 0 86
+i1 0 64
+</CsScore>
+</CsoundSynthesizer>
+

@@ -1,0 +1,6 @@
+csound -otest.wav --omacro:FILENAME='"thelightthatburns.wav"'\
+	--omacro:EXTRA_TIME=1\
+	--omacro:IMPULSE='"impulse.wav"'\
+	--omacro:SCALE=0.01\
+	--omacro:SR=96000\
+	convolve.csd

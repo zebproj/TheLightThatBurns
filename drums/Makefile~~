@@ -1,0 +1,31 @@
+objects = kick.wav snare.wav hihat.wav
+csd_files = kick.csd snare.csd hihat.csd
+loops = drum1.wav
+default:
+
+kick.wav: kick.csd
+	csound -okick.wav kick.csd
+snare.wav: snare.csd
+	csound -osnare.wav snare.csd
+hihat.wav:hihat.csd
+	csound -ohihat.wav hihat.csd
+
+drum1.wav:sampler.orc drum1.sco kick.wav snare.wav hihat.wav
+	csound -o drum1.wav sampler.orc drum1.sco
+
+drum1.sco: drum1.pat drummachine.pl
+	perl drummachine.pl drum1.pat drum1.sco
+all: ${csd_files}
+	make ${objects}
+
+break1.wav: drum1.wav mincer.csd
+	csound -o break1.wav mincer.csd
+
+loop8_temp.wav: break1.wav
+	sox break1.wav break1.wav break1.wav break1.wav loop8_temp.wav
+clean: 
+	rm ${objects}
+	rm ${loops}
+
+clean_loops:
+	rm ${loops}

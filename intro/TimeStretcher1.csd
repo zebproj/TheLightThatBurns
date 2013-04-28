@@ -1,0 +1,63 @@
+<CsoundSynthesizer>
+
+<CsOptions>
+-ostretched.wav
+</CsOptions>
+
+<CsInstruments>
+
+sr      = 44100
+ksmps   = 1
+nchnls  = 2
+0dbfs   = 1
+
+#define FILE #"foo"#
+
+gSFile      = "../Individual_Words/twiceasbright.wav"
+gSPVX1      = "out1.pvx"
+gSPVX2      = "out2.pvx"
+giLength    init 0
+giChnls     = 0
+
+	instr 1
+/*
+gSFile          =           p4
+giStretch       =           p5
+*/
+ifftsize        =           1024
+ihopsize        =           ifftsize / 4
+
+; REDEFINE p3
+    
+giLength    filelen     gSFile
+p3          =           giLength + 1.0
+
+; READ FROM AUDIO FILE
+
+ichnls  filenchnls  gSFile
+if (ichnls == 2) then
+    giChnls     =           2
+    ainL, ainR  diskin2     gSFile, 1.0
+else
+    giChnls     =           1
+    ainL        diskin2     gSFile, 1.0
+    ainR        =           ainL
+endif
+
+; WRITE TO PVX FILE(S)
+    
+fss1    pvsanal     ainL, ifftsize, ihopsize, ifftsize, 0
+        pvsfwrite   fss1, gSPVX1
+if (giChnls == 2) then
+        fss2        pvsanal     ainR, ifftsize, ihopsize, ifftsize, 0
+                    pvsfwrite   fss2, gSPVX2
+endif        
+	endin
+    
+  
+
+</CsInstruments>
+<CsScore>
+i1 0 5 
+</CsScore>
+</CSoundSynthesizer>

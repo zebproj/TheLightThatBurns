@@ -1,0 +1,1 @@
+timestretcher -i pluckspeech.wav -o theme_slow -s 5 -z 8192 -v 8

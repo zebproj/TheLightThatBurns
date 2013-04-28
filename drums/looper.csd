@@ -1,0 +1,42 @@
+<CsoundSynthesizer>
+<CsOptions>
+-d
+-B 2048
+-odac:system:playback_
+-+rtaudio=jack
+;-+rtaudio=alsa
+-+rtmidi=alsa
+--midi-key-pch=4
+;--midi-velocity-amp=5
+</CsOptions>
+; ==============================================
+<CsInstruments>
+
+sr	=	96000
+;sr	=	44100
+ksmps	=	1
+nchnls	=	2
+0dbfs	=	1
+
+gikick ftgen 0, 0, 0, 1, "kick.wav", 0, 0, 1
+
+instr 1	
+iamp = .8
+;iamp = p5
+
+
+kline linseg ftlen(gikick), p3-0.001, 10
+
+akick lposcil iamp, 1, 0, kline, gikick
+outs akick, akick
+endin
+
+</CsInstruments>
+; ==============================================
+<CsScore>
+t 0 86
+i1 0 4
+
+</CsScore>
+</CsoundSynthesizer>
+

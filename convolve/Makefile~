@@ -1,0 +1,46 @@
+objects = impulse.wav thelightthatburns.wav pluckspeech.wav theme.wav\
+		themeB.wav pluckspeech_theme.wav pluckspeech_themeB.wav\
+		theme_slow.wav theme_slow_reverb.wav theme_slow_octave.wav
+
+default:
+
+thelightthatburns.wav:
+	ln -s ../thelightthatburns.wav thelightthatburns.wav
+
+impulse.wav: plucked_impulse.csd plucked_impulse.sco
+	csound -oimpulse.wav -W -d plucked_impulse.orc plucked_impulse.sco
+
+theme.wav: plucked_impulse.csd theme.sco
+	csound -otheme.wav -W -d plucked_impulse.orc theme.sco
+
+themeB.wav: plucked_impulse.csd theme_B.sco
+	csound -othemeB.wav -W -d plucked_impulse.orc theme_B.sco
+
+
+pluckspeech.wav: impulse.wav thelightthatburns.wav
+	./convolve -i impulse.wav -s thelightthatburns.wav -o pluckspeech.wav -e 6
+	sox pluckspeech.wav tmp.wav reverse
+	mv tmp.wav pluckspeech.wav
+
+pluckspeech_theme.wav: theme.wav thelightthatburns.wav
+	./convolve -i theme.wav -s thelightthatburns.wav -o pluckspeech_theme.wav -e 6
+
+pluckspeech_themeB.wav: themeB.wav thelightthatburns.wav
+	./convolve -i themeB.wav -s thelightthatburns.wav -o pluckspeech_themeB.wav -e 6
+
+theme_slow.wav: pluckspeech.wav timestretcher
+	./timestretcher -i pluckspeech.wav -o theme_slow.wav -s 5 -z 8192 -v 8
+
+theme_slow_octave.wav: pluckspeech.wav timestretcher
+	./timestretcher -i pluckspeech.wav -o theme_slow_octave.wav -s 5 -z 8192 -v 8 -p 2
+
+theme_slow_reverb.wav: theme_slow.wav
+	./reverb -i theme_slow.wav -o theme_slow_reverb.wav
+	
+theme_oct_reverb.wav: theme_slow_octave.wav
+	./reverb -i theme_slow.wav -o theme_oct_reverb.wav
+all:
+	make ${objects}
+
+clean:
+	rm ${objects}

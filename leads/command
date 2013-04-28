@@ -1,0 +1,1 @@
+csound -oreverb1.wav --omacro:SR=96000 --omacro:FILE='pluck1.wav' --omacro:EXTRA_TIME=10 --omacro:CUTOFF=10000 --omacro:SCALE=10 --omacro:DECAY=.98

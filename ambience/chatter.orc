@@ -1,0 +1,18 @@
+sr	=	96000
+ksmps	=	1
+nchnls	=	2
+0dbfs	=	1
+
+instr 1	
+ipch = p4
+iply = p5
+ipan = p6
+
+ilen filelen "../thelightthatburns.wav"
+aenv expseg 1, p3, 0.00001
+a1, a2 diskin "../thelightthatburns.wav", ipch, iply*ilen, 1
+
+a1, a2 pan2 a1, ipan
+
+outs a1 * aenv, a2 * aenv
+endin

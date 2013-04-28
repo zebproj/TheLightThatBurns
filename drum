@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+sr=$1
+outfile=$2
+infile=\'\"$3\"\'
+scale=$4
+extra_time=$5
+cutoff=$6
+decay=$7
+echo $infile
+echo "csound -o$outfile \
+--omacro:SR=$sr \
+--omacro:FILENAME=$infile \
+--omacro:EXTRA_TIME=$extra_time \
+--omacro:CUTOFF=$cutoff \
+--omacro:SCALE=$scale \
+--omacro:DECAY=$decay reverbsc.csd" >  command.sh; 
+
+cat command.sh
+
+sh command.sh
+
+

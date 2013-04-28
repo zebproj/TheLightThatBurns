@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session version="2.0.0" name="TheLightThatBurns" sample-rate="96000" id-counter="19749">
+  <Config>
+    <Option name="output-auto-connect" value="2"/>
+    <Option name="input-auto-connect" value="1"/>
+    <Option name="mtc-port-name" value="control"/>
+    <Option name="mmc-port-name" value="control"/>
+    <Option name="midi-port-name" value="control"/>
+    <Option name="edit-mode" value="0"/>
+    <Option name="clicking" value="no"/>
+    <Option name="auto-input" value="no"/>
+    <Option name="punch-in" value="no"/>
+    <Option name="slave-source" value="2"/>
+    <Option name="jack-time-master" value="no"/>
+    <Option name="meter-falloff" value="32"/>
+    <end-marker-is-free val="no"/>
+  </Config>
+  <Sources>
+    <Source name="intro_cross.wav" id="87" flags="" channel="0"/>
+    <Source name="intro_cross.wav" id="89" flags="" channel="1"/>
+    <Source name="drum3_kick.wav" id="1069" flags="" channel="0"/>
+    <Source name="drum3_kick.wav" id="1071" flags="" channel="1"/>
+    <Source name="drum3_snare.wav" id="1113" flags="" channel="0"/>
+    <Source name="drum3_snare.wav" id="1115" flags="" channel="1"/>
+    <Source name="drum3_snare_reverb.wav" id="1157" flags="" channel="0"/>
+    <Source name="drum3_snare_reverb.wav" id="1159" flags="" channel="1"/>
+    <Source name="drum4_hihat.wav" id="1201" flags="" channel="0"/>
+    <Source name="drum4_hihat.wav" id="1203" flags="" channel="1"/>
+    <Source name="drum3_hihat.wav" id="1252" flags="" channel="0"/>
+    <Source name="drum3_hihat.wav" id="1254" flags="" channel="1"/>
+    <Source name="pluck_mix.wav" id="1311" flags="" channel="0"/>
+    <Source name="pluck_mix.wav" id="1313" flags="" channel="1"/>
+    <Source name="pad_mix.wav" id="1369" flags="" channel="0"/>
+    <Source name="pad_mix.wav" id="1371" flags="" channel="1"/>
+    <Source name="drum4_kick.wav" id="1829" flags="" channel="0"/>
+    <Source name="drum4_kick.wav" id="1831" flags="" channel="1"/>
+    <Source name="drum4_snare.wav" id="1907" flags="" channel="0"/>
+    <Source name="drum4_snare.wav" id="1909" flags="" channel="1"/>
+    <Source name="drum4_snare_reverb.wav" id="1983" flags="" channel="0"/>
+    <Source name="drum4_snare_reverb.wav" id="1985" flags="" channel="1"/>
+    <Source name="kick_loop.wav" id="2003" flags="" channel="0"/>
+    <Source name="kick_loop.wav" id="2005" flags="" channel="1"/>
+    <Source name="bbbreak.wav" id="2099" flags="" channel="0"/>
+    <Source name="bbbreak.wav" id="2101" flags="" channel="1"/>
+    <Source name="pluckspeech.wav" id="3469" flags="" channel="0"/>
+    <Source name="pluckspeech.wav" id="3471" flags="" channel="1"/>
+    <Source name="pluckspeech_theme.wav" id="3533" flags="" channel="0"/>
+    <Source name="pluckspeech_theme.wav" id="3535" flags="" channel="1"/>
+    <Source name="chatter.wav" id="3649" flags="" channel="0"/>
+    <Source name="chatter.wav" id="3651" flags="" channel="1"/>
+    <Source name="outrochat.wav" id="3699" flags="" channel="0"/>
+    <Source name="outrochat.wav" id="3701" flags="" channel="1"/>
+    <Source name="conv_chat.wav" id="3763" flags="" channel="0"/>
+    <Source name="conv_chat.wav" id="3765" flags="" channel="1"/>
+    <Source name="low_groan.wav" id="3819" flags="" channel="0"/>
+    <Source name="low_groan.wav" id="3821" flags="" channel="1"/>
+    <Source name="low_groan_octave.wav" id="3863" flags="" channel="0"/>
+    <Source name="low_groan_octave.wav" id="3865" flags="" channel="1"/>
+    <Source name="high_groan.wav" id="3917" flags="" channel="0"/>
+    <Source name="high_groan.wav" id="3919" flags="" channel="1"/>
+    <Source name="high_groan_reverb.wav" id="3966" flags="" channel="0"/>
+    <Source name="high_groan_reverb.wav" id="3968" flags="" channel="1"/>
+    <Source name="reverbchat.wav" id="4023" flags="" channel="0"/>
+    <Source name="reverbchat.wav" id="4025" flags="" channel="1"/>
+    <Source name="theme_slow.wav" id="4088" flags="" channel="0"/>
+    <Source name="theme_slow.wav" id="4090" flags="" channel="1"/>
+    <Source name="theme_slow_reverb.wav" id="4132" flags="" channel="0"/>
+    <Source name="theme_slow_reverb.wav" id="4134" flags="" channel="1"/>
+    <Source name="theme_slow_octave.wav" id="4176" flags="" channel="0"/>
+    <Source name="theme_slow_octave.wav" id="4178" flags="" channel="1"/>
+    <Source name="theme_oct_reverb.wav" id="4220" flags="" channel="0"/>
+    <Source name="theme_oct_reverb.wav" id="4222" flags="" channel="1"/>
+    <Source name="twiceasbright_vocoded.wav" id="9127" flags="" channel="0"/>
+    <Source name="twiceasbright_vocoded.wav" id="9129" flags="" channel="1"/>
+    <Source name="twiceasbright_3.wav" id="10400" flags="Writable,CanRename,Removable,RemovableIfEmpty" channel="0"/>
+    <Source name="arp.wav" id="10634" flags="" channel="0"/>
+    <Source name="arp.wav" id="10636" flags="" channel="1"/>
+    <Source name="pluckspeech_themeB.wav" id="10735" flags="" channel="0"/>
+    <Source name="pluckspeech_themeB.wav" id="10737" flags="" channel="1"/>
+  </Sources>
+  <Regions>
+    <Region id="578" name="intro_cross" start="0" length="4382512" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="87" source-1="89" channels="2" master-source-0="87" master-source-1="89">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1073" name="drum3_kick" start="0" length="2110727" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1069" source-1="1071" channels="2" master-source-0="1069" master-source-1="1071">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1117" name="drum3_snare" start="0" length="2172056" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1113" source-1="1115" channels="2" master-source-0="1113" master-source-1="1115">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1161" name="drum3_snare_reverb" start="0" length="2364056" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1157" source-1="1159" channels="2" master-source-0="1157" master-source-1="1159">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1205" name="drum4_hihat" start="0" length="1071628" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1201" source-1="1203" channels="2" master-source-0="1201" master-source-1="1203">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1256" name="drum3_hihat" start="0" length="2143256" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1252" source-1="1254" channels="2" master-source-0="1252" master-source-1="1254">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1315" name="pluck_mix" start="0" length="9629023" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1311" source-1="1313" channels="2" master-source-0="1311" master-source-1="1313">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1373" name="pad_mix" start="0" length="9821023" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1369" source-1="1371" channels="2" master-source-0="1369" master-source-1="1371">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1833" name="drum4_kick" start="0" length="1039099" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1829" source-1="1831" channels="2" master-source-0="1829" master-source-1="1831">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1911" name="drum4_snare" start="0" length="1100428" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1907" source-1="1909" channels="2" master-source-0="1907" master-source-1="1909">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="1987" name="drum4_snare_reverb" start="0" length="1292428" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1983" source-1="1985" channels="2" master-source-0="1983" master-source-1="1985">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="2007" name="kick_loop" start="0" length="267907" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="2003" source-1="2005" channels="2" master-source-0="2003" master-source-1="2005">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="2103" name="bbbreak" start="0" length="2143256" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="2099" source-1="2101" channels="2" master-source-0="2099" master-source-1="2101">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="3473" name="pluckspeech" start="0" length="872273" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3469" source-1="3471" channels="2" master-source-0="3469" master-source-1="3471">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="3537" name="pluckspeech_theme" start="0" length="872273" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3533" source-1="3535" channels="2" master-source-0="3533" master-source-1="3535">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="3703" name="outrochat" start="0" length="2996256" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3699" source-1="3701" channels="2" master-source-0="3699" master-source-1="3701">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="3767" name="conv_chat" start="0" length="2996256" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3763" source-1="3765" channels="2" master-source-0="3763" master-source-1="3765">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="3823" name="low_groan" start="0" length="4740368" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3819" source-1="3821" channels="2" master-source-0="3819" master-source-1="3821">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="3867" name="low_groan_octave" start="0" length="4740368" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3863" source-1="3865" channels="2" master-source-0="3863" master-source-1="3865">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="3921" name="high_groan" start="0" length="4740368" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3917" source-1="3919" channels="2" master-source-0="3917" master-source-1="3919">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="3970" name="high_groan_reverb" start="0" length="5796368" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3966" source-1="3968" channels="2" master-source-0="3966" master-source-1="3968">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="4027" name="reverbchat" start="0" length="4052256" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4023" source-1="4025" channels="2" master-source-0="4023" master-source-1="4025">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="4092" name="theme_slow" start="0" length="4361365" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4088" source-1="4090" channels="2" master-source-0="4088" master-source-1="4090">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="4136" name="theme_slow_reverb" start="0" length="5417365" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4132" source-1="4134" channels="2" master-source-0="4132" master-source-1="4134">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="4180" name="theme_slow_octave" start="0" length="4361365" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4176" source-1="4178" channels="2" master-source-0="4176" master-source-1="4178">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="4224" name="theme_oct_reverb" start="0" length="5417365" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4220" source-1="4222" channels="2" master-source-0="4220" master-source-1="4222">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="9131" name="twiceasbright_vocoded" start="0" length="1310624" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="9127" source-1="9129" channels="2" master-source-0="9127" master-source-1="9129">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="10402" name="twiceasbright_3" start="0" length="1310624" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10400" channels="1" master-source-0="10400">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="10638" name="arp" start="0" length="2210233" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10634" source-1="10636" channels="2" master-source-0="10634" master-source-1="10636">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+    <Region id="10739" name="pluckspeech_themeB" start="0" length="872273" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10735" source-1="10737" channels="2" master-source-0="10735" master-source-1="10737">
+      <FadeIn default="yes" active="yes"/>
+      <FadeOut default="yes" active="yes"/>
+      <Envelope default="yes"/>
+    </Region>
+  </Regions>
+  <DiskStreams>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="intro_cross.1" speed="1" name="intro_cross" id="590"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="kick" speed="1" name="kick" id="1085"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="snare" speed="1" name="snare" id="1129"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="snare_verb" speed="1" name="snare_verb" id="1173"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="hihat" speed="1" name="hihat" id="1268"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="pluck" speed="1" name="pluck" id="1327"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="pad" speed="1" name="pad" id="1385"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="BBCut" speed="1" name="BBCut" id="2115"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="pluckspeech" speed="1" name="pluckspeech" id="3485"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="pluckspeech_theme" speed="1" name="pluckspeech_theme" id="3549"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="chatter" speed="1" name="chatter" id="3665"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="outrochat" speed="1" name="outrochat" id="3715"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="conv_chat" speed="1" name="conv_chat" id="3779"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="low_groan" speed="1" name="low_groan" id="3835"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="low_groan_octave" speed="1" name="low_groan_octave" id="3879"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="high_groan" speed="1" name="high_groan" id="3933"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="high_groan_reverb" speed="1" name="high_groan_reverb" id="3982"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="reverbchat" speed="1" name="reverbchat" id="4039"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="theme_slow" speed="1" name="theme_slow" id="4104"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="theme_slow_reverb" speed="1" name="theme_slow_reverb" id="4148"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="theme_slow_octave" speed="1" name="theme_slow_octave" id="4192"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="theme_oct_reverb" speed="1" name="theme_oct_reverb" id="4236"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="twiceasbright_vocoded.1" speed="1" name="twiceasbright_vocoded" id="5475"/>
+    <AudioDiskstream flags="Recordable" channels="1" playlist="twiceasbright_long" speed="1" name="twiceasbright_long" id="10414"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="arp" speed="1" name="arp" id="10650"/>
+    <AudioDiskstream flags="Recordable" channels="2" playlist="pluckspeech_themeB" speed="1" name="pluckspeech_themeB" id="10751"/>
+  </DiskStreams>
+  <Locations>
+    <Location id="17" name="start" start="0" end="0" flags="IsMark,IsStart" locked="no"/>
+    <Location id="16" name="end" start="18753488" end="18753488" flags="IsMark,IsEnd" locked="no"/>
+    <Location id="63" name="Loop" start="0" end="28800000" flags="IsAutoLoop,IsHidden" locked="no"/>
+    <Location id="64" name="Punch" start="0" end="28800000" flags="IsAutoPunch,IsHidden" locked="no"/>
+  </Locations>
+  <Connections/>
+  <Routes>
+    <Route flags="MasterOut" default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=0:signal=0">
+      <IO name="master" id="18" active="yes" inputs="{arp/out 1,theme_oct_reverb/out 1,theme_slow_octave/out 1,theme_slow_reverb/out 1,theme_slow/out 1,reverbchat/out 1,high_groan_reverb/out 1,high_groan/out 1,low_groan_octave/out 1,low_groan/out 1,conv_chat/out 1,outrochat/out 1,chatter/out 1,pluckspeech_themeB/out 1,pluckspeech_theme/out 1,pluckspeech/out 1,twiceasbright_vocoded/out 1,pad/out 1,pluck/out 1,BBCut/out 1,hihat/out 1,snare_verb/out 1,snare/out 1,kick/out 1,twiceasbright_long/out 1,intro_cross/out 1}{arp/out 2,theme_oct_reverb/out 2,theme_slow_octave/out 2,theme_slow_reverb/out 2,theme_slow/out 2,reverbchat/out 2,high_groan_reverb/out 2,high_groan/out 2,low_groan_octave/out 2,low_groan/out 2,conv_chat/out 2,outrochat/out 2,chatter/out 2,pluckspeech_themeB/out 2,pluckspeech_theme/out 2,pluckspeech/out 2,twiceasbright_vocoded/out 2,pad/out 2,pluck/out 2,BBCut/out 2,hihat/out 2,snare_verb/out 2,snare/out 2,kick/out 2,twiceasbright_long/out 2,intro_cross/out 2}" outputs="{system:playback_1}{system:playback_2}" gain="1.000000000000" iolimits="-1,2,-1,2">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="59" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="58"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="62" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="61"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="19"/>
+        <Automation>
+          <AutomationList id="20" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="22"/>
+      <controllable name="mute" id="23"/>
+      <remote_control id="1"/>
+      <extra>
+        <GUI color="41997:34488:19561" height="64" strip_width="Wide" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=1:signal=1" mode="Normal" diskstream-id="590">
+      <IO name="intro_cross" id="583" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="595" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="594"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="598" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="597"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="584"/>
+        <Automation>
+          <AutomationList id="585" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="587"/>
+      <controllable name="mute" id="588"/>
+      <remote_control id="2"/>
+      <extra>
+        <GUI color="10073:17958:22553" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19014"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=2:signal=2" mode="Normal" diskstream-id="10414">
+      <IO name="twiceasbright_long" id="10407" active="yes" inputs="{}" outputs="{master/in 1}{master/in 2}" gain="0.465145856142" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0.5" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="10419" default="0.5" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="10418"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="10408"/>
+        <Automation>
+          <AutomationList id="10409" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="10411"/>
+      <controllable name="mute" id="10412"/>
+      <remote_control id="3"/>
+      <extra>
+        <GUI color="34388:7653:15857" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19024"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=3:signal=3" mode="Normal" diskstream-id="1085">
+      <IO name="kick" id="1078" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.633027374744" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1090" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1089"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1093" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1092"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="1079"/>
+        <Automation>
+          <AutomationList id="1080" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="1082"/>
+      <controllable name="mute" id="1083"/>
+      <remote_control id="4"/>
+      <extra>
+        <GUI color="32321:9987:6544" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19037"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=4:signal=4" mode="Normal" diskstream-id="1129">
+      <IO name="snare" id="1122" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.917336106300" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1134" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1133"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1137" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1136"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="1123"/>
+        <Automation>
+          <AutomationList id="1124" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="1126"/>
+      <controllable name="mute" id="1127"/>
+      <remote_control id="5"/>
+      <extra>
+        <GUI color="46179:4991:37873" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19050"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=5:signal=5" mode="Normal" diskstream-id="1173">
+      <IO name="snare_verb" id="1166" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.820731222630" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1178" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1177"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1181" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1180"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="1167"/>
+        <Automation>
+          <AutomationList id="1168" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="1170"/>
+      <controllable name="mute" id="1171"/>
+      <remote_control id="6"/>
+      <extra>
+        <GUI color="2596:1190:36566" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19063"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=6:signal=6" mode="Normal" diskstream-id="1268">
+      <IO name="hihat" id="1261" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.346786737442" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1273" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1272"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1276" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1275"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="1262"/>
+        <Automation>
+          <AutomationList id="1263" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="1265"/>
+      <controllable name="mute" id="1266"/>
+      <remote_control id="7"/>
+      <extra>
+        <GUI color="2864:27001:19430" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19076"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=7:signal=7" mode="Normal" diskstream-id="2115">
+      <IO name="BBCut" id="2108" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.705219864845" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="2120" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="2119"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="2123" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="2122"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="2109"/>
+        <Automation>
+          <AutomationList id="2110" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="2112"/>
+      <controllable name="mute" id="2113"/>
+      <remote_control id="8"/>
+      <extra>
+        <GUI color="21956:23173:26466" height="64" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19089"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=8:signal=8" mode="Normal" diskstream-id="1327">
+      <IO name="pluck" id="1320" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1332" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1331"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1335" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1334"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="1321"/>
+        <Automation>
+          <AutomationList id="1322" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="1324"/>
+      <controllable name="mute" id="1325"/>
+      <remote_control id="9"/>
+      <extra>
+        <GUI color="22176:22658:40755" height="52" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19102"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=9:signal=9" mode="Normal" diskstream-id="1385">
+      <IO name="pad" id="1378" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.275492250919" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1390" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1389"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="1393" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="1392"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="1379"/>
+        <Automation>
+          <AutomationList id="1380" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="1382"/>
+      <controllable name="mute" id="1383"/>
+      <remote_control id="10"/>
+      <extra>
+        <GUI color="9102:7021:43962" height="61" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19115"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=10:signal=10" mode="Normal" diskstream-id="5475">
+      <IO name="twiceasbright_vocoded" id="5468" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.102312788367" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="5480" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="5479"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="5483" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="5482"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="5469"/>
+        <Automation>
+          <AutomationList id="5470" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="5472"/>
+      <controllable name="mute" id="5473"/>
+      <remote_control id="11"/>
+      <extra>
+        <GUI color="23308:9783:36454" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19128"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=11:signal=11" mode="Normal" diskstream-id="3485">
+      <IO name="pluckspeech" id="3478" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3490" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3489"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3493" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3492"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="3479"/>
+        <Automation>
+          <AutomationList id="3480" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="3482"/>
+      <controllable name="mute" id="3483"/>
+      <remote_control id="12"/>
+      <extra>
+        <GUI color="15761:16869:3048" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19141"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=12:signal=12" mode="Normal" diskstream-id="3549">
+      <IO name="pluckspeech_theme" id="3542" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.563507497311" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3554" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3553"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3557" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3556"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="3543"/>
+        <Automation>
+          <AutomationList id="3544" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="3546"/>
+      <controllable name="mute" id="3547"/>
+      <remote_control id="13"/>
+      <extra>
+        <GUI color="10211:35800:103" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19154"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=13:signal=13" mode="Normal" diskstream-id="10751">
+      <IO name="pluckspeech_themeB" id="10744" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.196812778711" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="10756" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="10755"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="10759" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="10758"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="10745"/>
+        <Automation>
+          <AutomationList id="10746" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="10748"/>
+      <controllable name="mute" id="10749"/>
+      <remote_control id="14"/>
+      <extra>
+        <GUI color="32440:26660:12747" height="70" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19167"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=14:signal=14" mode="Normal" diskstream-id="3665">
+      <IO name="chatter" id="3658" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.000000000000" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3670" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3669"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3673" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3672"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="3659"/>
+        <Automation>
+          <AutomationList id="3660" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="3662"/>
+      <controllable name="mute" id="3663"/>
+      <remote_control id="15"/>
+      <extra>
+        <GUI color="22200:7624:30900" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19180"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=15:signal=15" mode="Normal" diskstream-id="3715">
+      <IO name="outrochat" id="3708" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.708628058434" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3720" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3719"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3723" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3722"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="3709"/>
+        <Automation>
+          <AutomationList id="3710" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="3712"/>
+      <controllable name="mute" id="3713"/>
+      <remote_control id="16"/>
+      <extra>
+        <GUI color="31468:9554:45259" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19193"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=16:signal=16" mode="Normal" diskstream-id="3779">
+      <IO name="conv_chat" id="3772" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.159596890211" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3784" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3783"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3787" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3786"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="3773"/>
+        <Automation>
+          <AutomationList id="3774" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="3776"/>
+      <controllable name="mute" id="3777"/>
+      <remote_control id="17"/>
+      <extra>
+        <GUI color="29400:32257:39555" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19206"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=17:signal=17" mode="Normal" diskstream-id="3835">
+      <IO name="low_groan" id="3828" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.969484925270" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3840" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3839"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3843" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3842"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="3829"/>
+        <Automation>
+          <AutomationList id="3830" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="3832"/>
+      <controllable name="mute" id="3833"/>
+      <remote_control id="18"/>
+      <extra>
+        <GUI color="1357:1392:22716" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19219"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=18:signal=18" mode="Normal" diskstream-id="3879">
+      <IO name="low_groan_octave" id="3872" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="1.995262265205" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3884" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3883"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3887" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3886"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="3873"/>
+        <Automation>
+          <AutomationList id="3874" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="3876"/>
+      <controllable name="mute" id="3877"/>
+      <remote_control id="19"/>
+      <extra>
+        <GUI color="31942:26288:39764" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19232"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=19:signal=19" mode="Normal" diskstream-id="3933">
+      <IO name="high_groan" id="3926" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.413294702768" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3938" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3937"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3941" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3940"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="3927"/>
+        <Automation>
+          <AutomationList id="3928" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="3930"/>
+      <controllable name="mute" id="3931"/>
+      <remote_control id="20"/>
+      <extra>
+        <GUI color="18029:29579:11825" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19245"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=20:signal=20" mode="Normal" diskstream-id="3982">
+      <IO name="high_groan_reverb" id="3975" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.095134638250" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3987" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3986"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="3990" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="3989"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="3976"/>
+        <Automation>
+          <AutomationList id="3977" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="3979"/>
+      <controllable name="mute" id="3980"/>
+      <remote_control id="21"/>
+      <extra>
+        <GUI color="9391:4789:46702" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19258"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=21:signal=21" mode="Normal" diskstream-id="4039">
+      <IO name="reverbchat" id="4032" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.207333177328" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4044" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4043"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4047" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4046"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="4033"/>
+        <Automation>
+          <AutomationList id="4034" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="4036"/>
+      <controllable name="mute" id="4037"/>
+      <remote_control id="22"/>
+      <extra>
+        <GUI color="6741:41136:33880" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19271"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=22:signal=22" mode="Normal" diskstream-id="4104">
+      <IO name="theme_slow" id="4097" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.291555970907" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4109" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4108"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4112" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4111"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="4098"/>
+        <Automation>
+          <AutomationList id="4099" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="4101"/>
+      <controllable name="mute" id="4102"/>
+      <remote_control id="23"/>
+      <extra>
+        <GUI color="29536:32537:1641" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19284"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=23:signal=23" mode="Normal" diskstream-id="4148">
+      <IO name="theme_slow_reverb" id="4141" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.167375296354" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4153" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4152"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4156" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4155"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="4142"/>
+        <Automation>
+          <AutomationList id="4143" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="4145"/>
+      <controllable name="mute" id="4146"/>
+      <remote_control id="24"/>
+      <extra>
+        <GUI color="46405:20992:11852" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19297"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=24:signal=24" mode="Normal" diskstream-id="4192">
+      <IO name="theme_slow_octave" id="4185" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.542891800404" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4197" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4196"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4200" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4199"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="4186"/>
+        <Automation>
+          <AutomationList id="4187" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="4189"/>
+      <controllable name="mute" id="4190"/>
+      <remote_control id="25"/>
+      <extra>
+        <GUI color="34206:3892:22405" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19310"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=25:signal=25" mode="Normal" diskstream-id="4236">
+      <IO name="theme_oct_reverb" id="4229" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.465512871742" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4241" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4240"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="4244" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="4243"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="4230"/>
+        <Automation>
+          <AutomationList id="4231" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="4233"/>
+      <controllable name="mute" id="4234"/>
+      <remote_control id="26"/>
+      <extra>
+        <GUI color="30182:1151:42225" height="27" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19323"/>
+    </Route>
+    <Route default-type="audio" muted="no" soloed="no" phase-invert="no" denormal-protection="no" mute-affects-pre-fader="yes" mute-affects-post-fader="yes" mute-affects-control-outs="yes" mute-affects-main-outs="yes" meter-point="MeterPostFader" order-keys="editor=26:signal=26" mode="Normal" diskstream-id="10650">
+      <IO name="arp" id="10643" active="yes" inputs="{}{}" outputs="{master/in 1}{master/in 2}" gain="0.412617415190" iolimits="1,-1,-1,-1">
+        <Panner linked="no" link_direction="SameDirection" bypassed="no">
+          <Output x="0" y="0"/>
+          <Output x="1" y="0"/>
+          <StreamPanner x="0" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="10655" default="0" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="10654"/>
+          </StreamPanner>
+          <StreamPanner x="1" type="Equal Power Stereo" muted="no">
+            <Automation>
+              <AutomationList id="10658" default="1" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+            </Automation>
+            <controllable name="panner" id="10657"/>
+          </StreamPanner>
+        </Panner>
+        <controllable name="gaincontrol" id="10644"/>
+        <Automation>
+          <AutomationList id="10645" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+        </Automation>
+      </IO>
+      <controllable name="solo" id="10647"/>
+      <controllable name="mute" id="10648"/>
+      <remote_control id="27"/>
+      <extra>
+        <GUI color="47438:46670:17883" height="70" shown_mixer="yes" shown_editor="yes">
+          <gain height="70" shown="no"/>
+          <pan height="70" shown="no"/>
+        </GUI>
+      </extra>
+      <alignment style="ExistingMaterial"/>
+      <controllable name="recenable" id="19336"/>
+    </Route>
+  </Routes>
+  <EditGroups/>
+  <MixGroups/>
+  <Playlists>
+    <Playlist name="theme_slow_octave" orig_diskstream_id="4192" frozen="no">
+      <Region id="4211" name="theme_slow_octave" start="0" length="4361365" position="13127442" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4176" source-1="4178" channels="2" master-source-0="4176" master-source-1="4178">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9470" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+275783 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="hihat" orig_diskstream_id="1268" frozen="no">
+      <Region id="10842" name="drum3_hihat.1" start="0" length="2143256" position="1875349" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="1252" source-1="1254" channels="2" master-source-0="1252" master-source-1="1254">
+        <FadeIn active="yes">
+          <AutomationList id="10843" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+651864 0.0694444
+1135827 0.152778
+1555588 0.333333
+1817322 0.558333
+1970413 0.730556
+2143256 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="1287" name="drum3_hihat" start="0" length="2143256" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1252" source-1="1254" channels="2" master-source-0="1252" master-source-1="1254">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="1871" name="drum4_hihat.1" start="0" length="803722" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="1201" source-1="1203" channels="2" master-source-0="1201" master-source-1="1203">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="2090" name="drum3_hihat" start="0" length="2143256" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1252" source-1="1254" channels="2" master-source-0="1252" master-source-1="1254">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="twiceasbright_vocoded.1" orig_diskstream_id="5475" frozen="no">
+      <Region id="9169" name="twiceasbright_vocoded" start="0" length="1310624" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="9127" source-1="9129" channels="2" master-source-0="9127" master-source-1="9129">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="10375" name="twiceasbright_vocoded" start="0" length="1310624" position="13931163" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,WholeFile,FadeIn,FadeOut,External" scale-gain="0.686435520649" source-0="9127" source-1="9129" channels="2" master-source-0="9127" master-source-1="9129">
+        <FadeIn active="yes">
+          <AutomationList id="10376" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+214330 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut active="yes">
+          <AutomationList id="10377" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+238995 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="kick" orig_diskstream_id="1085" frozen="no">
+      <Region id="1104" name="drum3_kick" start="0" length="2110727" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1069" source-1="1071" channels="2" master-source-0="1069" master-source-1="1071">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="1882" name="drum4_kick.1" start="0" length="803722" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,External" scale-gain="1" source-0="1829" source-1="1831" channels="2" master-source-0="1829" master-source-1="1831">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="no"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="2013" name="kick_loop" start="0" length="267907" position="8037209" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeOut,External" scale-gain="0.686435520649" source-0="2003" source-1="2005" channels="2" master-source-0="2003" master-source-1="2005">
+        <FadeIn default="yes" active="no"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="2060" name="drum3_kick" start="0" length="2110727" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="3" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1069" source-1="1071" channels="2" master-source-0="1069" master-source-1="1071">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Crossfade out="1882" in="2013" active="yes" follow-overlap="yes" fixed="no" length="1" anchor-point="0" position="8037209">
+        <FadeIn>
+          <point x="0" y="0"/>
+          <point x="1" y="1"/>
+        </FadeIn>
+        <FadeOut>
+          <point x="0" y="1"/>
+          <point x="1" y="0"/>
+        </FadeOut>
+      </Crossfade>
+    </Playlist>
+    <Playlist name="chatter" orig_diskstream_id="3665" frozen="no">
+      <Region id="3684" name="chatter" start="0" length="2012689" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3649" source-1="3651" channels="2" master-source-0="3649" master-source-1="3651">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="conv_chat" orig_diskstream_id="3779" frozen="no">
+      <Region id="3798" name="conv_chat" start="0" length="2996256" position="11520000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3763" source-1="3765" channels="2" master-source-0="3763" master-source-1="3765">
+        <FadeIn active="yes">
+          <AutomationList id="3799" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+768121 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="theme_slow_reverb" orig_diskstream_id="4148" frozen="no">
+      <Region id="4167" name="theme_slow_reverb" start="0" length="5417365" position="12859535" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4132" source-1="4134" channels="2" master-source-0="4132" master-source-1="4134">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9483" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+126201 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="theme_oct_reverb" orig_diskstream_id="4236" frozen="no">
+      <Region id="4255" name="theme_oct_reverb" start="0" length="5417365" position="13127442" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4220" source-1="4222" channels="2" master-source-0="4220" master-source-1="4222">
+        <FadeIn active="yes">
+          <AutomationList id="9438" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+509896 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="outrochat" orig_diskstream_id="3715" frozen="no">
+      <Region id="3734" name="outrochat" start="0" length="2996256" position="11520000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3699" source-1="3701" channels="2" master-source-0="3699" master-source-1="3701">
+        <FadeIn active="yes">
+          <AutomationList id="3735" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+880683 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="snare" orig_diskstream_id="1129" frozen="no">
+      <Region id="1148" name="drum3_snare" start="0" length="2172056" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1113" source-1="1115" channels="2" master-source-0="1113" master-source-1="1115">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="1964" name="drum4_snare.1" start="0" length="803722" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="1907" source-1="1909" channels="2" master-source-0="1907" master-source-1="1909">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="2070" name="drum3_snare" start="0" length="2172056" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1113" source-1="1115" channels="2" master-source-0="1113" master-source-1="1115">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="theme_slow" orig_diskstream_id="4104" frozen="no">
+      <Region id="4123" name="theme_slow" start="0" length="4361365" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4088" source-1="4090" channels="2" master-source-0="4088" master-source-1="4090">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9464" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+141829 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="low_groan_octave" orig_diskstream_id="3879" frozen="no">
+      <Region id="3898" name="low_groan_octave" start="0" length="4740368" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3863" source-1="3865" channels="2" master-source-0="3863" master-source-1="3865">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9514" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+118972 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="low_groan" orig_diskstream_id="3835" frozen="no">
+      <Region id="3854" name="low_groan" start="0" length="4740368" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3819" source-1="3821" channels="2" master-source-0="3819" master-source-1="3821">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9495" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+118972 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="reverbchat" orig_diskstream_id="4039" frozen="no">
+      <Region id="4058" name="reverbchat" start="0" length="4052256" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="4023" source-1="4025" channels="2" master-source-0="4023" master-source-1="4025">
+        <FadeIn active="yes">
+          <AutomationList id="4059" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+827713 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut active="yes">
+          <AutomationList id="9458" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+234581 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="twiceasbright_long" orig_diskstream_id="10414" frozen="no">
+      <Region id="10427" name="twiceasbright_3" start="0" length="1310624" position="3281860" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10400" channels="1" master-source-0="10400">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="snare_verb" orig_diskstream_id="1173" frozen="no">
+      <Region id="1192" name="drum3_snare_reverb" start="0" length="2364056" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1157" source-1="1159" channels="2" master-source-0="1157" master-source-1="1159">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="1993" name="drum4_snare_reverb.1" start="0" length="803722" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,FadeIn,FadeOut,External" scale-gain="1" source-0="1983" source-1="1985" channels="2" master-source-0="1983" master-source-1="1985">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="2080" name="drum3_snare_reverb" start="0" length="2364056" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="2" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1157" source-1="1159" channels="2" master-source-0="1157" master-source-1="1159">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pluck" orig_diskstream_id="1327" frozen="no">
+      <Region id="1346" name="pluck_mix" start="0" length="9629023" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1311" source-1="1313" channels="2" master-source-0="1311" master-source-1="1313">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="high_groan_reverb" orig_diskstream_id="3982" frozen="no">
+      <Region id="4001" name="high_groan_reverb.1" start="0" length="5796368" position="12189767" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,FadeIn,FadeOut,External" scale-gain="1" source-0="3966" source-1="3968" channels="2" master-source-0="3966" master-source-1="3968">
+        <FadeIn active="yes">
+          <AutomationList id="9450" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+881954 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut active="yes">
+          <AutomationList id="9451" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+103344 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="arp" orig_diskstream_id="10650" frozen="no">
+      <Region id="10669" name="arp" start="0" length="2210233" position="10448372" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10634" source-1="10636" channels="2" master-source-0="10634" master-source-1="10636">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pluckspeech_themeB" orig_diskstream_id="10751" frozen="no">
+      <Region id="10770" name="pluckspeech_themeB" start="0" length="872273" position="7233488" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10735" source-1="10737" channels="2" master-source-0="10735" master-source-1="10737">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+      <Region id="10795" name="pluckspeech_themeB" start="0" length="872273" position="11520000" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="1" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="10735" source-1="10737" channels="2" master-source-0="10735" master-source-1="10737">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pluckspeech_theme" orig_diskstream_id="3549" frozen="no">
+      <Region id="3568" name="pluckspeech_theme" start="0" length="872273" position="5626046" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3533" source-1="3535" channels="2" master-source-0="3533" master-source-1="3535">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="high_groan" orig_diskstream_id="3933" frozen="no">
+      <Region id="3952" name="high_groan.1" start="0" length="4740368" position="12323721" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,FadeIn,FadeOut,External" scale-gain="1" source-0="3917" source-1="3919" channels="2" master-source-0="3917" master-source-1="3919">
+        <FadeIn active="yes">
+          <AutomationList id="3953" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 0
+728395 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <FadeOut active="yes">
+          <AutomationList id="9507" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+118972 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pad" orig_diskstream_id="1385" frozen="no">
+      <Region id="1404" name="pad_mix" start="0" length="9821023" position="4018605" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="1369" source-1="1371" channels="2" master-source-0="1369" master-source-1="1371">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="BBCut" orig_diskstream_id="2115" frozen="no">
+      <Region id="2135" name="bbbreak" start="0" length="2143256" position="8305116" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="2099" source-1="2101" channels="2" master-source-0="2099" master-source-1="2101">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="pluckspeech" orig_diskstream_id="3485" frozen="no">
+      <Region id="3504" name="pluckspeech" start="0" length="872273" position="9577674" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,DefaultFadeOut,WholeFile,FadeIn,FadeOut,External" scale-gain="1" source-0="3469" source-1="3471" channels="2" master-source-0="3469" master-source-1="3471">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut default="yes" active="yes"/>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+    <Playlist name="intro_cross.1" orig_diskstream_id="590" frozen="no">
+      <Region id="609" name="intro_cross.1" start="0" length="4382512" position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" first_edit="nothing" layer="0" sync-position="0" flags="Opaque,DefaultFadeIn,FadeIn,FadeOut,External" scale-gain="1" source-0="87" source-1="89" channels="2" master-source-0="87" master-source-1="89">
+        <FadeIn default="yes" active="yes"/>
+        <FadeOut active="yes">
+          <AutomationList id="9611" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute">
+            <events>0 1
+23945 0.730556
+82480 0.289256
+139570 0.152778
+206619 0.0694444
+296930 0
+</events>
+          </AutomationList>
+        </FadeOut>
+        <Envelope default="yes"/>
+        <extra>
+          <GUI waveform-visible="yes" envelope-visible="no" waveform-rectified="no" waveform-logscaled="no"/>
+        </extra>
+      </Region>
+    </Playlist>
+  </Playlists>
+  <UnusedPlaylists/>
+  <Click>
+    <IO name="click" id="24" active="yes" inputs="" outputs="{system:playback_1}{system:playback_2}" gain="1.000000000000" iolimits="0,0,-1,-1">
+      <Panner linked="no" link_direction="SameDirection" bypassed="no">
+        <Output x="0" y="0"/>
+        <Output x="1" y="0"/>
+        <StreamPanner x="0.5" type="Equal Power Stereo" muted="no">
+          <Automation>
+            <AutomationList id="56" default="0.5" min_yval="0" max_yval="1" max_xval="0" state="Off" style="Absolute"/>
+          </Automation>
+          <controllable name="panner" id="55"/>
+        </StreamPanner>
+      </Panner>
+      <controllable name="gaincontrol" id="25"/>
+      <Automation>
+        <AutomationList id="26" default="1" min_yval="0" max_yval="2" max_xval="0" state="Off" style="Absolute"/>
+      </Automation>
+    </IO>
+  </Click>
+  <NamedSelections/>
+  <TempoMap>
+    <Tempo start="1|1|0" beats-per-minute="86.000000" note-type="4.000000" movable="no"/>
+    <Meter start="1|1|0" note-type="4.000000" beats-per-bar="4.000000" movable="no"/>
+  </TempoMap>
+  <ControlProtocols>
+    <Protocol name="Generic MIDI" active="no"/>
+    <Protocol name="Mackie" active="no"/>
+  </ControlProtocols>
+  <extra>
+    <ClockModes primary="SMPTE" secondary="BBT" preroll="MinSec" postroll="MinSec" bigclock="SMPTE" editpoint="BBT" zoomrange="SMPTE" nudge="SMPTE" sfboxLengthClock="BBT" sfboxTimecodeClock="SMPTE"/>
+  </extra>
+</Session>

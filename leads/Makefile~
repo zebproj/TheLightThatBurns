@@ -1,0 +1,27 @@
+objects = reverb1.wav pluck1.wav pluck_mix.wav arp.wav
+default:
+
+pluck_mix.wav: pluck1.wav reverb1.wav
+	sox -m pluck1.wav reverb1.wav pluck_mix.wav
+pluck_1.sco: plucked_1.xm 
+	xm2sco -i plucked_1.xm -o pluck_1.sco -t
+
+pluck1.wav: pluck_1.sco plucked.orc
+	csound -d -opluck1.wav plucked.orc pluck_1.sco 
+reverb1.wav: pluck1.wav
+	./reverb 96000 reverb1.wav pluck1.wav 0.35 10 10000 .98	
+
+#arp in section B2
+
+arp.sco: arp.xm
+	xm2sco -t -i arp.xm -o arp.sco
+	echo "i2 0 8 0.01 1" >> arp.sco
+	echo "i2 9 8 1 0.01" >> arp.sco
+arp.wav: arp.sco arp.orc
+	csound -d -W -oarp.wav arp.orc arp.sco
+
+all:
+	make ${objects}
+
+clean:
+	rm ${objects}

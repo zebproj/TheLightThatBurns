@@ -1,0 +1,38 @@
+<CsoundSynthesizer>
+<CsOptions>
+-d
+-odac:system:playback_
+-+rtaudio=jack
+;-+rtaudio=alsa
+-+rtmidi=alsa
+--midi-key-pch=4
+;--midi-velocity-amp=5
+</CsOptions>
+; ==============================================
+<CsInstruments>
+
+sr	=	96000
+ksmps	=	1
+nchnls	=	2
+0dbfs	=	1
+
+instr 1	
+Sfile1 = "word_mix.wav"
+Sfile2 = "../drums/loop8_temp.wav"
+
+a1 diskin2 Sfile1, 1
+a2 diskin2 Sfile2, 1
+
+outs a1, a1
+
+endin
+
+</CsInstruments>
+; ==============================================
+<CsScore>
+f 0 999
+
+
+</CsScore>
+</CsoundSynthesizer>
+

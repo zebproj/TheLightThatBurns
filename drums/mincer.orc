@@ -1,0 +1,49 @@
+sr	=	96000
+ksmps	=	1
+nchnls	=	2
+0dbfs	=	1
+
+gkfreq init 0
+gkamp init 0
+
+instr 1	
+
+if (p5 < 0) then
+istart = (((8 - p4)/8) * (172/60))
+else
+istart = (((p4-1)/8) * (172/60))
+endif
+print istart
+a1,ajunk  diskin2 "drum1.wav", p5, istart, 1
+
+fa1 pvsanal a1, 1024, 256, 1024, 1
+freeze pvsfreeze fa1, gkamp, gkfreq
+aout pvsynth freeze
+
+aL = aout * p6
+aR = aout * p6
+outs aL, aR
+endin
+
+instr 2
+gkamp = p4
+gkfreq = p5
+endin
+
+instr 3	
+if (p5 < 0) then
+istart = (((8 - p4)/8) * (172/60))
+else
+istart = (((p4-1)/8) * (172/60))
+endif
+print istart
+a1, ajunk  diskin2 "drum2.wav", p5, istart, 1
+
+fa1 pvsanal a1, 1024, 256, 1024, 1
+freeze pvsfreeze fa1, gkamp, gkfreq
+aout pvsynth freeze
+
+aL = aout * p6
+aR = aout * p6
+outs aL , aR
+endin

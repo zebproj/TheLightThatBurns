@@ -1,0 +1,4 @@
+
+sr = $1
+
+echo "pvanal -s 96000 -c 1 -n 4096 -w 4 -K ../Individual_Words/twiceasbright.wav out.pvx

@@ -1,0 +1,1 @@
+sox drum_plain.wav drum_loop.wav trim 0 `python -c "print 4 * (60.0/172) " `

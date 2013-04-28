@@ -1,0 +1,114 @@
+#!/usr/bin/perl
+
+use 5.010;
+use strict;
+
+my $filename = 0;
+my $extra_time = 0;
+my $sr = 96000;
+my $stretch = 0.5;
+my $size = 4096;
+my $overlap = 4;
+my $pitch = 1;
+
+my $output = 0;
+my $help = 0;
+my $cmdstring;
+
+foreach my $a (@ARGV){
+	$cmdstring .= $a;
+}
+
+
+my @commands = split '-',$cmdstring;
+
+foreach my $c (@commands){
+	if($c =~ /^h/){
+		$help = 1;
+	}
+	if ($c =~ /^i(.*)/){
+		$filename = $1;
+	}elsif ($c =~ /^o(.*)/){
+		$output = $1;
+	}elsif ($c =~ /^s(.*)/){
+		$stretch = $1;
+	}elsif ($c =~ /^r(.*)/){
+		$sr = $1;
+	}elsif ($c =~ /^e(.*)/){
+		$extra_time = $1;
+	}elsif ($c =~ /^v(.*)/){
+		$overlap = $1;
+	}elsif ($c =~ /^z(.*)/){
+		$size= $1;
+	}elsif ($c =~ /^p(.*)/){
+		$pitch= $1;
+	}
+}
+if($help){
+print 	
+	"Commands:\n".
+	"-e append extra time (in seconds)\n".
+	"-h help\n".
+	"-i FILE input\n".
+	"-o FILE output filename \n".
+	"-r sample rate\n".
+	"-s stretch amount\n".
+	"-v overlap\n".
+	"-p pitch\n".
+	"-z size\n";
+}elsif($output =~ /0/ or $filename =~ /0/){
+	print "ERROR: you must specificy a signal and output filename".
+	"with the -s, and -o flags, respectively.\n";
+}else{
+	open TEMP, ">tmp.csd";
+	select TEMP;
+print
+"
+<CsoundSynthesizer>
+<CsOptions>
+-o $output -W -d
+</CsOptions>
+<CsInstruments>
+
+sr = 96000
+ksmps = 1
+0dbfs  = 1 
+nchnls = 2
+	instr 1
+
+gSFile          =	\"$filename\"
+giStretch       =	$stretch           
+idur  filelen   gSFile
+p3 = idur*giStretch + $extra_time
+	
+kpos  line      0,idur*giStretch,idur		
+fsigL pvsfread  kpos,\"outL.pvx\", 0
+fsigR pvsfread  kpos,\"outR.pvx\", 0
+
+fpitchL pvscale fsigL, 0.25
+fpitchR pvscale fsigR, 0.25
+
+aoutL  pvsynth	fpitchL
+aoutR  pvsynth	fpitchR
+
+      outs	aoutL, aoutR
+endin
+</CsInstruments>
+<CsScore>
+
+i1 0 1
+
+</CsScore>
+</CsoundSynthesizer> 
+";
+
+	close TEMP;
+
+	system("pvanal -s $sr -c 1 -n $size -w $overlap -K  $filename outL.pvx");
+	system("pvanal -s $sr -c 2 -n $size -w $overlap -K  $filename outR.pvx");
+	system("csound tmp.csd");
+
+	unlink "tmp.csd";
+	unlink "outL.pvx";
+	unlink "outR.pvx";
+}
